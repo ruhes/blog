@@ -1,0 +1,260 @@
+body{
+    margin:0;
+    height: 25cm;
+    font-size: 14px;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+@media screen and (max-width:767px){
+    #left{
+        position: fixed;
+        top:0;
+        background: black;
+        height: 50px;
+        width: 100%;
+        display: inline-block;
+    }
+    #left .face .menuimg{
+        width: 30px;
+        height: 30px;
+        padding:10px 0 0 13px;
+    }
+    #left .face .faceImg{
+        width: 32px;
+        height: 32px;
+        float: right;
+        margin:10px 13px 0 10px;
+        border-radius: 20px;
+        display: block;
+    }
+    #left .face p{
+        padding:3px;
+        color: white;
+        float: right;
+        padding-bottom: 0;
+    }
+    #left .nav li{
+        height: 40px;
+        padding:13px 0 0 20px;
+        margin:0;
+        background: deepskyblue;
+    }
+    #left .nav a{
+        text-decoration: none;
+        color: white;
+    }
+    #left .nav a img{
+        vertical-align: sub;
+        padding-right: 20px;
+    }
+
+    #left .nav,.getHub,dl img{
+        display: none;
+    }
+    #right .message{
+        margin: 50px auto;
+        margin-bottom: 10px;
+        text-align: center;
+        background: #4C4C4C;
+        color: white;
+        width:90%;
+        height: 50px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    #right .message h4, .message p{
+        margin:0;
+    }
+    #right dl{
+        margin: 30px;
+    }
+    #right dd{
+        padding:0;
+        margin:0;
+    }
+    #right dd a{
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+    }
+    #right .details{
+        color: #ccc;
+        font-size: 10px;
+        padding:5px 0;
+    }
+    #right .details a{
+        text-decoration: none;
+        color: deepskyblue;
+    }
+    #right .details span{
+        background: pink;
+        padding:1px 5px;
+        border-radius: 5px;
+    }
+    #right .details span a{
+        color: white;
+    }
+    #right .cont{
+        font-size: 15px;
+        line-height: 25px;
+        color: #999;
+    }
+    #right dt a{
+        padding-top: 5px;
+        text-decoration: none;
+        color: deepskyblue;
+    }
+}
+
+@media screen and (min-width:1024px){
+    #left{
+        position: fixed;
+        top:0px;
+        height:100%;
+        width: 250px;
+        border-right: 1px solid #ccc;
+        background: white;
+        overflow: auto;
+    }
+    #left .face{
+        background: black;
+        width:100%;
+        min-height: 5cm;
+        color: seashell;
+        font-size: 16px;
+        text-align: center;
+    }
+    #left .menuimg{
+        display: none;
+    }
+    #left .face img{
+        width: 100px;
+        height:100px;
+        margin-top: 30px;
+        border-radius: 100px;
+    }
+    #left .nav{
+        padding-top: 30px;
+    }
+    #left .nav li{
+        height: 20px;
+        margin-top: 30px;
+    }
+    #left .nav a{
+        padding:13px 0 13px 25px;
+        margin:15px 0 0 35px;
+        display: block;
+        font-size: 18px;
+        text-decoration: none;
+        color: midnightblue;
+    }
+    #left .nav a:hover{
+        color: deepskyblue;
+        background: #eee;
+    }
+    #left .nav img{
+        height: 24px;
+        width: 24px;
+        vertical-align: sub;
+        margin-right: 20px;
+    }
+    #left .getHub{
+        margin: 60px 0 0 47px;
+    }
+    #left .getHub a{
+        display: inline-block;
+        margin:6px;
+    }
+
+
+
+    #right{
+        padding-left: 250px;
+    }
+    #right .message{
+        width: 90%;
+        height: 80px;
+        margin:0 auto;
+        background: #4C4C4C;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        text-align: center;
+        color: white;
+        margin-bottom: 20px;
+    }
+    #right .message h4{
+        width: 50px;
+        margin:0 auto;
+        font-size: 20px;
+        padding:10px 0 0 0;
+    }
+    #right .message p{
+        font-size: 15px;
+        width:155px;
+        margin:0 auto;
+    }
+    #right dl{
+        margin:8px 60px;
+        padding:15px 0;
+        line-height: 25px;
+        min-height: 165px;
+        border-bottom: 1px solid #ccc;
+    }
+    #right dl dd{
+        font-size: 26px;
+        margin:0;
+    }
+    #right dl dd a{
+        text-decoration: none;
+        color: black;
+    }
+    #right dl dd a:hover{
+        color: deepskyblue;
+    }
+    #right dl dt{
+        font-size: 16px;
+        color: slategray;
+        display: block;
+    }
+    #right dl dt a{
+        text-decoration: none;
+        color: deepskyblue;
+    }
+    #right .details{
+        padding-top: 10px;
+        font-size: 14px;
+        color: #ccc;
+    }
+    #right .details span{
+        background: pink;
+        padding:1px 5px;
+        border-radius: 5px;
+    }
+    #right .details span a{
+        color: white;
+    }
+    #right .cont{
+        text-indent: 25px;
+        padding-bottom: 4px;
+    }
+    #right .listImg{
+        float: right;
+    }
+    #right .listImg img{
+        height: 140px;
+        width: 140px;
+        border-radius: 10px;
+        margin: 10px 0 0 30px;
+    }
+    #right .button{
+        text-decoration: none;
+        color: deepskyblue;
+        border: 1px solid #999;
+        border-radius: 5px;
+        padding:7px 15px;
+    }
+}
+
